@@ -5,6 +5,11 @@
     <link rel="stylesheet" type="text/css" href="aboutme.css">
   </head>
 <body>
+  <script>
+function homeInfo() {
+    document.getElementById("home").innerHTML = "Abigail is from Juneau, Alaska which is the only state capital not accessible by car. In middle school, she hated living there because there are no malls and her friends liked to complain about that. Now, however, she loves it there and spends her time at home hiking mountains, camping, and driving out the road to watch beautiful sunsets";
+}
+</script>
 
   <h1><b>Abigail</b> Taylor-Roth</h1>
   
@@ -12,9 +17,11 @@
   
   <a href="corefourreflection.html"> Reflection Page for Core4 Topics </a>
   <h2>Home</h2>
-<p>Abigail is from Juneau, Alaska which is the only state capital not accessible by car. 
-  In middle school, she hated living there because there are no malls and her friends liked to complain about that.
-  Now, however, she loves it there and spends her time at home hiking mountains, camping, and driving out the road to watch beautiful sunsets.</p>
+<button type="button" onclick="homeInfo()">Click Here to Learn about my Home</button>
+  
+  <p id="home"> </p>
+
+<p>me </p>
   <img src="IMG_2936.jpg" alt = "mt. juneau picture" width="604" height="142">
   <br>
   <img src="IMG_3459.JPG" alt = "sunset" width="378" height="213">
